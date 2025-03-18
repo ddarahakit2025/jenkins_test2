@@ -15,7 +15,7 @@ const login = async () => {
 
   if (data.success) {
     //로그인
-    alert('로그인 성성공')
+    alert('로그인 성공')
 
     //메인 페이지 이동
     window.location.href = '/';
@@ -42,7 +42,7 @@ const login = async () => {
                 <label class="form-label">비밀번호</label>
                 <input v-model="userInput.password" type="password" class="form-control" required />
               </div>
-              <button type="submit" class="btn btn-success w-100">로그인</button>
+              <button type="submit" class="btn btn-success w-100">로그인zz</button>
             </form>
             <p class="mt-3 text-center">
               계정이 없으신가요? <router-link to="/user/signup">회원 가입</router-link>
